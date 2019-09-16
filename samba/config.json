@@ -27,6 +27,6 @@
     "interface": "str",
     "allow_hosts": ["str"]
   },
-  "devices": ["/dev/zram1:/dev/zram1:rwm"],
+  "devices": ["/dev/sdb1:/dev/sdb1:rwm"],
   "full_access": true
 }
