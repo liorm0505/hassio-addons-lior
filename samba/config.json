@@ -1,5 +1,5 @@
 {
-  "name": "Samba share",
+  "name": "Samba share - Lior",
   "version": "0.8.2",
   "slug": "samba",
   "description": "Expose Hass.io folders and mount sdb1 external drive to /share/hdd",
