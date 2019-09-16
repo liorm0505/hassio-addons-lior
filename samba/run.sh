@@ -17,8 +17,8 @@ PASSWORD=$(jq --raw-output '.password // empty' $CONFIG_PATH)
 WAIT_PIDS=()
 NAME=
 
-if [[ -e /dev/zram1 ]]; then
-    mount /dev/zram1 /share/hdd
+if [[ -e /dev/sdb1 ]]; then
+    mount /dev/sdb1 /share/hdd
 fi
 
 # Check Login data
