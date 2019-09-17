@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 
-if [[ ! -e /mnt/data/supervisor/share/hdd ]]; then
-    mkdir -p /mnt/data/supervisor/share/hdd
-    chmod -R 0777 /mnt/data/supervisor/share/hdd
+if [[ ! -e /share/hdd ]]; then
+    mkdir -p /share/hdd
+    chmod -R 0777 /share/hdd
 fi
 
 CONFIG_PATH=/data/options.json
@@ -18,7 +18,7 @@ WAIT_PIDS=()
 NAME=
 
 if [[ -e /dev/sdb1 ]]; then
-    mount /dev/sdb1 /mnt/data/supervisor/share/hdd
+    mount /dev/sdb1 /share/hdd
 fi
 
 # Check Login data
