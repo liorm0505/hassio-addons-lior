@@ -1,7 +1,7 @@
 {
-  "name": "motionEye - lior",
+  "name": "motionEye-lior",
   "version": "dev",
-  "slug": "motioneye - lior",
+  "slug": "motioneye-lior",
   "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras with automount ext hdd",
   "url": "https://github.com/liorm0505/hassio-addons-lior/tree/master/motioneye",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8765]",
