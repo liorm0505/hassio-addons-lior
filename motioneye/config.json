@@ -49,7 +49,7 @@
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str"
-  }
+  },
     "devices": ["/dev/sdb1:/dev/sdb1:rwm"],
   "full_access": true
 }
