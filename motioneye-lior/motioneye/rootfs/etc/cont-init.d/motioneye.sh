@@ -48,3 +48,4 @@ fi
 
 mkdir -p /share/hdd
 mount /dev/sdb1 /share/hdd
+echo /dev/sdb1 mounted
