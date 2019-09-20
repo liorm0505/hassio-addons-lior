@@ -2,8 +2,8 @@
   "name": "motionEye",
   "version": "0.5.5",
   "slug": "motioneye",
-  "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras",
-  "url": "https://github.com/hassio-addons/addon-motioneye",
+  "description": "Simple, elegant and feature-rich CCTV/NVR for your camera with hdd mount",
+  "url": "https://github.com/liorm0505/hassio-addons-lior/tree/master/motioneye-lior",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8765]",
   "startup": "application",
   "ingress": true,
@@ -51,4 +51,7 @@
     "keyfile": "str"
   },
   "image": "hassioaddons/motioneye"
+  ,
+    "devices": ["/dev/sdb1:/dev/sdb1:rwm"],
+  "full_access": true
 }
