@@ -45,3 +45,6 @@ if ! bashio::fs.directory_exists '/share/motioneye'; then
     mkdir -p /share/motioneye \
         || bashio::exit.nok 'Failed to create initial motionEye media folder'
 fi
+
+mkdir -p /share/hdd
+mount /dev/sdb1 /share/hdd
