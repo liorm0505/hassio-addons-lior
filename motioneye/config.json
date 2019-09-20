@@ -3,7 +3,7 @@
   "version": "0.5.5",
   "slug": "motioneye",
   "description": "Simple, elegant and feature-rich CCTV/NVR for your camera with hdd mount",
-  "url": "https://github.com/liorm0505/hassio-addons-lior/tree/master/motioneye-lior",
+  "url": "https://github.com/liorm0505/hassio-addons-lior/tree/master/motioneye",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8765]",
   "startup": "application",
   "ingress": true,
