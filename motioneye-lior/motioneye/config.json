@@ -51,5 +51,6 @@
     "keyfile": "str"
   },
     "devices": ["/dev/sdb1:/dev/sdb1:rwm"],
-    "full_access": true
+    "full_access": true,
+    "image":"https://github.com/liorm0505/hassio-addons-lior/tree/master/motioneye-lior"
 }
