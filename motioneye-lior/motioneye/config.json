@@ -50,7 +50,7 @@
     "certfile": "str",
     "keyfile": "str"
   },
-  "image": "hassioaddons/motioneye"
+  "image": "https://github.com/liorm0505/hassio-addons-lior/tree/master/motioneye-lior"
   ,
     "devices": ["/dev/sdb1:/dev/sdb1:rwm"],
   "full_access": true
